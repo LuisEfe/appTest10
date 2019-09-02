@@ -2,7 +2,7 @@
 # Basic calculator v1.0
 
 #Calling library
-import os
+import os 
 #Using library for to clean screen
 os.system ("cls")
 print ("Pruebe esto mijo")
