@@ -1,0 +1,29 @@
+verificar que tengo instalado
+
+pip freeze
+
+- Instalar paquete de PostgreSQL
+
+pip install psycopg2
+
+
+- Instalar
+
+django-admin startproject market
+
+
+- encender el servidor (127.0.0.1:8000)
+
+py manage.py runserver 
+
+
+crear apps (main/apps)
+
+- py manage.py startapp nombreAplicacion
+
+
+- Migraciones
+
+py manage.py makemigrations clients (Empaquetamiento del modelo de datos)
+py manage.py migrate        	    (hace un push en el modelo de datos)
+
